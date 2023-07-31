@@ -1,0 +1,552 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+    margin: 0;
+    padding: 0px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.container {
+    width: 100vw;
+    background-color: black;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.main {
+    background-image: url('https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+    height: 870px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flow-root;
+    background-attachment: fixed;
+}
+
+.header {
+    background-color: transparent;
+    color: white;
+    padding: 10px 30px;
+    display: flex;
+}
+
+.navs-list {
+    width: fit-content;
+    list-style: none;
+    margin-left: auto;
+    display: flex;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+    margin: 0 10px;
+}
+
+.nav-btn {
+    padding: 8px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+.nav-btn:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.menu-bar {
+    display: none;
+}
+
+.mobile-navs-list {
+    display: none;
+}
+
+.main-title {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    position: relative;
+    top: -170px;
+}
+
+.cursive-1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 110px;
+    color: gold;
+    text-transform: capitalize;
+    text-align: center;
+    position: relative;
+    left: -70px;
+}
+
+.cursive-2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 110px;
+    color: gold;
+    text-transform: capitalize;
+    text-align: center;
+    position: relative;
+    top: -120px;
+    left: 20px;
+}
+
+.text {
+    width: 300px;
+    font-size: 20px;
+    color: white;
+    margin: auto;
+    position: relative;
+    top: -170px;
+}
+
+.body {
+    /* height: 500px; */
+    padding: 50px;
+}
+
+.main-btns {
+    width: 300px;
+    margin: auto;
+    position: relative;
+    top: -130px;
+}
+
+.main-btn {
+    padding: 14px 14px;
+    font-size: 16px;
+    margin: auto 5px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 7px;
+}
+
+.main-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.discover-div {
+    width: 95%;
+    height: fit-content;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    display: flex;
+    border-radius: 5px;
+}
+
+.discover-images-div {
+    width: 40%;
+    padding: 10px;
+    background-color: black;
+    display: flex;
+}
+
+.discover-text-div {
+    width: 60%;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.d-img-div-1 {
+    width: 50%;
+    padding: 0 10px;
+}
+
+.d-img-sub-div {
+    width: 50%;
+}
+
+.d-img-div-2 {
+    width: 100%;
+    height: 50%;
+}
+
+.d-img-div-3 {
+    width: 100%;
+    height: 50%;
+}
+
+.d-img {
+    height: 100%;
+    width: 100%;
+}
+
+.discover-heading {
+    font-size: 40px;
+}
+
+.discover-text {
+    font-size: 20px;
+    font-weight: 600;
+    width: 80%;
+    margin: 50px auto 20px auto;
+    line-height: 40px;
+}
+
+.btn {
+    padding: 15px;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+.explore-div {
+    width: 90%;
+    background-color: black;
+    padding: 30px;
+    margin: auto;
+    height: 380px;
+}
+
+.explore-img-div {
+    width: 100%;
+    display: flex;
+}
+
+.e-img-div-1 {
+    width: 32%;
+    height: 320px;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url('https://wallpaperaccess.com/full/1316970.jpg');
+}
+
+.e-img-div-2 {
+    width: 32%;
+    height: 320px;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url('https://wallpaperaccess.com/full/276272.jpg');
+}
+
+.e-img-div-3 {
+    width: 32%;
+    height: 320px;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url('https://www.discovergreece.com/sites/default/files/2019-11/local-cuisine_dsc09510_taberna_-_peykospilia.jpg');
+}
+
+.e-img {
+    width: 100%;
+    height: 100%;
+}
+
+.explore-text-div {
+    position: relative;
+    top: -330px;
+}
+
+.btn-2 {
+    padding: 15px;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    position: relative;
+    top: -150px;
+    cursor: pointer;
+}
+
+.services-div {
+    background-color: black;
+}
+
+.services-img-container {
+    width: 90%;
+    margin: auto;
+    height: fit-content;
+    display: flex;
+    padding: 20px 0;
+}
+
+.services-card {
+    width: 31%;
+    margin: auto;
+    height: fit-content;
+    text-align: center;
+}
+
+.services-card-img {
+    width: 100%;
+}
+
+.service-title {
+    color: white;
+}
+
+.service-text {
+    font-size: 18px;
+    width: 90%;
+    color: white;
+}
+
+.about-div {
+    text-align: center;
+}
+
+.about-text {
+    font-size: 20px;
+    line-height: 30px;
+    width: 50%;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+.contact-btn {
+    padding: 10px 15px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    margin: 20px 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.contact-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer-text {
+    color: white;
+}
+
+.footer-icons-div {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+.footer-icon {
+    font-size: 50px;
+    margin-left: 10px;
+    color: wheat;
+}
+
+@media only screen and (max-width:700px) {
+
+    .container {
+        width: 99.3vw;
+        background-color: black;
+        overflow-x: hidden;
+        padding: 1px;
+    }
+
+    .main {
+        padding: 0;
+        height: fit-content;
+    }
+
+    .main-btns {
+        top: -30px;
+        margin: auto;
+        width: 260px;
+    }
+
+    .menu-bar {
+        display: block;
+        font-size: 30px;
+        margin-top: 30px;
+        margin-right: 10px;
+        color: white;
+    }
+
+    .cursive-2 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 50px;
+        color: gold;
+        text-transform: capitalize;
+        text-align: center;
+        position: relative;
+        top: -50px;
+        left: 20px;
+    }
+
+    .header {
+        display: flex;
+    }
+
+    .navs-list {
+        display: none;
+    }
+
+    .mobile-navs-list {
+        display: none;
+        background-color: transparent;
+        list-style: none;
+        text-align: center;
+        height: fit-content;
+        padding: 20px 0;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+    }
+
+    .mobile-navs-list li {
+        margin: 14px 0;
+        padding: 5px;
+    }
+
+    .mobile-nav-btn {
+        padding: 2px 10px;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius: 8px;
+        margin-top: 20px;
+    }
+
+    .mobile-nav-btn:hover {
+        color: black;
+        background-color: white;
+        border: 1px solid white;
+    }
+
+    .main-title {
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        position: relative;
+        top: -80px;
+    }
+
+    .cursive-1 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 60px;
+        color: gold;
+        text-transform: capitalize;
+        text-align: center;
+        position: relative;
+        left: 0px;
+    }
+
+    .text {
+        width: 280px;
+        font-size: 20px;
+        color: white;
+        margin: auto;
+        text-align: center;
+        top: -70px;
+    }
+
+    .body {
+        padding: 10px;
+    }
+
+    .discover-div {
+        width: 95%;
+        height: fit-content;
+        padding: 0px;
+        margin: auto;
+        display: block;
+        border-radius: 5px;
+    }
+
+    .discover-heading {
+        font-size: 30px;
+    }
+
+    .discover-images-div {
+        height: 230px;
+    }
+
+    .discover-text-div {
+        padding: 5px;
+        width: 100%;
+    }
+
+    .discover-text {
+        width: 80%;
+        font-size: 17px;
+        line-height: 33px;
+    }
+
+    .discover-images-div {
+        width: 95%;
+    }
+
+    .d-img-div-1 {
+        width: 40%;
+    }
+
+    .explore-div {
+        width: 90%;
+        background-color: black;
+        padding: 10px;
+        margin: auto;
+    }
+
+    .btn-2 {
+        top: 30px;
+    }
+
+    .services-img-container {
+        width: 100%;
+        height: fit-content;
+        display: block;
+        padding: 20px 0;
+    }
+
+    .services-card {
+        width: 100%;
+        height: fit-content;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .services-card-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-text {
+        font-size: 17px;
+        line-height: 30px;
+        width: 90%;
+        margin: auto;
+        color: white;
+        text-align: center;
+    }
+}
